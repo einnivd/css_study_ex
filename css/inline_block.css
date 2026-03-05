@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+nav{
+    width: 500px;
+    padding: 10px;
+    margin: 100px auto;
+    background-color: rgb(242, 250, 126);
+}
+/* width : 자식은 부모를 따라간다. */
+/* = ul의 width는 nav의 width를 따라간다. */
+ul{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(159, 212, 255);
+}
+li{
+    /* display: inline; */
+    display: inline-block;
+    width: calc((100% / 4) - 3.4px);
+    padding: 10px;
+    background-color: pink;
+}
+.img-content{
+    width: 500px;
+    margin: 50px auto;
+    background-color: antiquewhite;
+}
+.img-content img{
+    width: 150px;
+    display: inline-block;
+}
+.img-content p{
+    width: 300px;
+    display: inline-block;
+    /* background-color: aqua; */
+}

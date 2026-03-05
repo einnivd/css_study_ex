@@ -1,0 +1,22 @@
+div{
+    margin: 0 auto;
+    
+}
+.box1{
+    width: 600px;
+    border: 1px dotted #333;
+    border-radius: 30px 30px 0 0;
+    padding: 20px;
+}
+.box2{
+    width: 600px;
+    border: 1px dotted black;
+    padding: 20px;
+    margin-top: 20px;
+}
+.text1{
+    font-style: italic;
+}
+.text2{
+    font-weight: bold;
+}

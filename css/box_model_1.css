@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    /* 이웃한 box의 margin이 서로 겹침 */
+}
+#box1{
+    background-color: rgb(169, 241, 241);
+}
+#box2{
+    background-color: rgb(241, 145, 245);
+    /* auto : width값이 있는 box를 화면 가운데 정렬 */
+    /* margin: 0 auto; */
+    /* margin-left: auto; */
+    margin-right: auto;
+}
+#box3{
+    background-color: rgb(236, 250, 175);
+    margin: 40px auto;
+}
+.boxmodel{
+    background-color: blanchedalmond;
+    width: 700px;
+    padding: 50px;
+    margin: 0 auto;
+}
+h1{
+    border-bottom: 3px solid #333;
+    padding: 3px;
+}
+p{
+    border: 3px dotted blue;
+    margin: 10px;
+    padding: 10px;
+}

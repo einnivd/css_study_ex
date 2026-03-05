@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 300px;
+    background-color: rgb(206, 240, 151);
+    border: 5px solid pink;
+    margin: auto;
+}
+.container-1{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 70%;
+}
+.container-2{
+    margin: 10px;
+    width: 50%;
+}
