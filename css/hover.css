@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-box{
+    position: relative;
+    margin: 100px auto;
+    width: 400px;
+    background-color: aqua;
+}
+.img-box img{
+    width: 100%;
+    display: block;
+}
+.text_area{
+    /* display: none; */
+    /* display : none, block에서는 transition이 적용 안 됨 */
+    /* 대신 opacity 사용 */
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+    /* padding: 100px; */
+}
+.text_area p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    /* text-align: center; */
+    font-size: 24px;
+    color: #fff;
+}
+.line{
+    position: absolute;
+    /* top: 50%; */
+    bottom: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0px;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+/* 호버 기능 */
+.img-box:hover .text_area{
+    /* display: block; */
+    opacity: 1;
+    cursor: pointer;
+}
+.img-box:hover .line{
+    width: 100px;
+}
